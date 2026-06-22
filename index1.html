@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InAmigos Foundation</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <span class="logo-icon"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL6AQeUOe76fl1u15r6pr976JcpU-_ptS5CUzR-OrJTj1etrVbYo_cmPnxyW5V1MeWP7MfdFO0mg65aFXxWwi4d18M3_jgdJrfETrJdx3OJPboPC79DeCdsw6ux08jMrvnSo_wMeFAgwnC_GOPymp3Pz3PE4QP-RSc76rf0Yu03GR-rQt6PRvgrXVILx4/s195/inamigos.jpg" alt="InAmigos Foundation" style="height: 50px; width: 50px; border-radius: 50%;"></span>
+    <span class="logo-text">InAmigos </span>
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#donate">Donate</a>
+    <a href="#works">Works</a>
+    <a href="#about">About Us</a>
+  </nav>
+</header>
+
+<!-- HERO SLIDER -->
+<section class="hero" id="home">
+  <div class="slides">
+    <div class="slide active" style="background-image: url('https://i.pinimg.com/1200x/b0/f3/c9/b0f3c9247b03a4388051dd369958613c.jpg');background-size: cover; background-position: center;">
+      <div class="slide-content">
+        <h1>InAmigos Foundation</h1>
+        <p>Empowering communities, one act of kindness at a time.</p>
+        <a href="#donate" class="btn-primary">Donate Now</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1350&q=80');background-size: cover; background-position: center;">
+      <div class="slide-content">
+        <h1>Feed the Hungry</h1>
+        <p>Join our food distribution drives across Jharkhand.</p>
+        <a href="#donate" class="btn-primary">Donate Now</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image: linear-gradient(135deg, #8b5e3c 0%, #6f4e37 100%);">
+      <div class="slide-content">
+        <h1>Clean Our Cities</h1>
+        <p>Volunteering for a cleaner, greener tomorrow.</p>
+        <a href="#donate" class="btn-primary">Donate Now</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image: linear-gradient(135deg, #a0522d 0%, #8b4513 100%);">
+      <div class="slide-content">
+        <h1>Education for All</h1>
+        <p>Balpathshala — bringing light to every child.</p>
+        <a href="#donate" class="btn-primary">Donate Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="slider-dots">
+    <span class="dot active" onclick="goTo(0)"></span>
+    <span class="dot" onclick="goTo(1)"></span>
+    <span class="dot" onclick="goTo(2)"></span>
+    <span class="dot" onclick="goTo(3)"></span>
+  </div>
+</section>
+
+<!-- BLOGS -->
+<section class="section" id="blogs">
+  <h2 class="section-title">Latest Blogs</h2>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-img" style="background-image: url('https://i.pinimg.com/1200x/da/3a/cd/da3acdc19723213b28cf3878c85a3eb7.jpg');"></div>
+     
+      <img src="https://i.pinimg.com/1200x/da/3a/cd/da3acdc19723213b28cf3878c85a3eb7.jpg" alt="Food Drive" style="width:100%; height: 150px; object-fit: cover; border-radius: 8px;">
+       <h3>Food Drive Success</h3>
+      <p>Our recent food distribution drive served over 500 families across Jamshedpur.</p>
+      <a href="#" class="btn-outline">Read More</a>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background-image: url('https://i.pinimg.com/1200x/e4/b8/5d/e4b85d6f7781fae6af3c850e68031f25.jpg');"></div>
+     
+      <img src="https://i.pinimg.com/1200x/e4/b8/5d/e4b85d6f7781fae6af3c850e68031f25.jpg" alt="Tree Plantation" style="width:100%; height: 150px; object-fit: cover; border-radius: 8px;">
+       <h3>Tree Plantation 2024</h3>
+      <p>Volunteers planted 1000+ trees this monsoon season for a greener environment.</p>
+      <a href="#" class="btn-outline">Read More</a>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background-image: url('https://i.pinimg.com/1200x/b6/ab/da/b6abdaf742aae8d38deb8eb77038725e.jpg');"></div>
+      
+      <img src="https://i.pinimg.com/1200x/b6/ab/da/b6abdaf742aae8d38deb8eb77038725e.jpg" alt="Balpathshala" style="width:100%; height: 150px; object-fit: cover; border-radius: 8px;">
+      <h3>Balpathshala Update</h3>
+      <p>60 underprivileged children are now receiving regular education through our program.</p>
+      <a href="#" class="btn-outline">Read More</a>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background-image: url('https://i.pinimg.com/736x/dc/b4/52/dcb4526a1d4f49d59acf1f4e47a54f4e.jpg');background-size: cover; background-position: center;"></div>
+      
+      <img src="https://i.pinimg.com/736x/dc/b4/52/dcb4526a1d4f49d59acf1f4e47a54f4e.jpg" alt="COVID Relief" style="width:100%; height: 150px; object-fit: cover; border-radius: 8px;">
+      <h3>COVID Relief Work</h3>
+      <p>A look back at our relief operations during the pandemic and the lives we touched.</p>
+      <a href="#" class="btn-outline">Read More</a>
+    </div>
+  </div>
+</section>
+
+<!-- DONATE & STATS -->
+<section class="donate-section" id="donate">
+  <div class="donate-left">
+    <h2>Make a Difference Today</h2>
+    <p>Every rupee you give helps us reach more lives. Your generosity fuels our mission.</p>
+    <a href="#contact" class="btn-primary">Donate Now</a>
+    <div class="social-links">
+      <a href="#">📘 Facebook</a>
+      <a href="#">📸 Instagram</a>
+      <a href="#">🐦 Twitter</a>
+      <a href="#">💼 LinkedIn</a>
+    </div>
+  </div>
+  <div class="stats-right">
+    <div class="stat">
+      <span class="stat-num">200+</span>
+      <span class="stat-label">Volunteers</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">5000+</span>
+      <span class="stat-label">Beneficiaries Helped</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">₹10L+</span>
+      <span class="stat-label">Funds Raised</span>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE DO -->
+<section class="section" id="works">
+  <h2 class="section-title">What We Do</h2>
+  <div class="works-grid">
+    <div class="work-item">
+      <div class="work-icon">🍲</div>
+      <h3>Food Distribution</h3>
+      <p>We organize regular food drives to ensure no one in our community sleeps hungry. 50,000+ meals distributed</p>
+    </div>
+    <div class="work-item">
+      <div class="work-icon">🧹</div>
+      <h3>Cleanliness Drives</h3>
+      <p>Our volunteers lead cleanliness campaigns to build hygienic, proud communities.</p>
+    </div>
+    <div class="work-item">
+      <div class="work-icon">❤️</div>
+      <h3>Charity Drives</h3>
+      <p>From clothes to books — we collect and distribute essentials to those who need them most.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section section-alt">
+  <h2 class="section-title">Our Projects</h2>
+  <div class="card-grid">
+    <div class="card">
+      <div class="project-icon">🌱</div>
+      <h3>Prakriti</h3>
+      <p>Environmental awareness and tree plantation activities to protect our planet.</p>
+      <a href="#" class="btn-outline">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="project-icon">🙏</div>
+      <h3>Seva</h3>
+      <p>Dedicated service to the elderly, homeless, and underprivileged in our region.</p>
+      <a href="#" class="btn-outline">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="project-icon">🕊️</div>
+      <h3>Udaan</h3>
+      <p>Empowered 900+ Girls through Digital Campaigns</p>
+      <a href="#" class="btn-outline">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="project-icon">📚</div>
+      <h3>Balpathshala</h3>
+      <p>Educating Children in Rural Areas</p>
+      <a href="#" class="btn-outline">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US -->
+<section class="section" id="about">
+  <h2 class="section-title">About Us</h2>
+  <div class="about-content">
+    <div class="about-text">
+      <h3>Our Mission</h3>
+      <p>InAmigos Foundation is a youth-led non-profit , dedicated to uplifting communities through service, education, and compassion.</p>
+      <h3>Our Vision</h3>
+      <p>A society where every individual — regardless of background — has access to food, education, and dignity.</p>
+      <ul class="about-list">
+        <li>✅ Charity Drives </li>
+        <li>✅ Tree Plantation Activities</li>
+        <li>✅ COVID-19 Relief Work</li>
+        <li>✅ Projects: Prakriti, Seva, Udaan, Balpathshala</li>
+      </ul>
+    </div>
+    <div class="about-highlights">
+      <div class="highlight">
+        <span>🏆</span>
+        <p>Founded by passionate youth volunteers</p>
+      </div>
+      <div class="highlight">
+        <span>🌍</span>
+        <p>Active in surrounding areas</p>
+      </div>
+      <div class="highlight">
+        <span>💛</span>
+        <p>Driven by empathy and community spirit</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="logo-icon">🤝</span>
+      <span class="logo-text">InAmigos Foundation</span>
+      <p>Empowering communities since day one.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#blogs">Blogs</a>
+      <a href="#works">What We Do</a>
+      <a href="#about">About Us</a>
+      
+    </div>
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <a href="#">📘 Facebook</a>
+      <a href="#">📸 Instagram</a>
+      <a href="#">🐦 Twitter / X</a>
+      <a href="#">💼 LinkedIn</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 InAmigos Foundation. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
